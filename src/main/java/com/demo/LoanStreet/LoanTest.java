@@ -15,25 +15,25 @@ public class LoanTest {
         LoanController controller = new LoanController();
 
         // Create new loan
-        Loan newLoan = new Loan(1000000.99, 7.5, 5000.00, 100);
+        Loan newLoan = new Loan(2000000.99, 7.5, 5000.00, 100);
         Loan newLoan2 = controller.addLoan(newLoan);
-        System.out.println(newLoan2.toString());
+        System.out.println(newLoan2);
 
         // Get all loans
         List<Loan> loansList = controller.getAllLoans();
         for (Loan loan : loansList) {
-            System.out.println(loan.toString());
+            System.out.println(loan);
         }
 
         // Get single loan
         Loan singleLoan = controller.getById(3);
-        System.out.println(singleLoan.toString());
+        System.out.println(singleLoan);
 
         // Update a loan
-        singleLoan.setAmount(750000.24);
-        singleLoan.setInterestRate(6.99);
-        singleLoan.setMonthlyPayment(3333.33);
-        singleLoan.setNumberMonths(707);
+        singleLoan.setAmount(990000.24);
+        singleLoan.setInterestRate(4.99);
+        singleLoan.setMonthlyPayment(7333.33);
+        singleLoan.setNumberMonths(709);
         Loan updatedLoan = controller.updateLoan(singleLoan);
         System.out.println(updatedLoan);
     }
