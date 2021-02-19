@@ -1,7 +1,7 @@
 # loanstreet-spring
 A Java programmatic client to connect with the LoanStreet Flask RESTful api
 
-Incorporate the [LoanStreet API] (https://github.com/mimimysam/loanstreet-flask) into a Java Spring project:
+Incorporate the [LoanStreet API](https://github.com/mimimysam/loanstreet-flask) into a Java Spring project:
 
 1. Create a new project directory using the command line
 2. Clone this repository into the new directory
