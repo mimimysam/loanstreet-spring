@@ -5,9 +5,10 @@ Incorporate the [LoanStreet API](https://github.com/mimimysam/loanstreet-flask) 
 
 1. Create a new project directory using the command line
 2. Clone this repository into the new directory
-3. Run `mvn install` inside this directory to install project into local maven repository
-4. Create a new Java project
-5. Import the LoanStreet API by adding the following dependency into the Java project's pom.xml file:
+3. `cd loanstreet-spring` 
+4. Run `mvn install` inside this directory to install project into local maven repository
+5. Create a new Java project
+6. Import the LoanStreet API by adding the following dependency into the Java project's pom.xml file:
 
 ```
 <dependencies>
